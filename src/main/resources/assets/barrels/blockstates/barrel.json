@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=white": {
+        "model": "barrels:barrelwhite"
+      },
+      "type=black": {
+        "model": "barrels:barrelblack"
+      }
+  }
+}
