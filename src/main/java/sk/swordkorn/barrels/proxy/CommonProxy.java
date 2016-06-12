@@ -11,11 +11,11 @@ import sk.swordkorn.barrels.blocks.BarrelsBlocks;
 public class CommonProxy {
 
     public void preInit(FMLPreInitializationEvent e) {
-
+        BarrelsBlocks.createBlocks();
     }
 
     public void init(FMLInitializationEvent e) {
-        BarrelsBlocks.createBlocks();
+        BarrelsBlocks.createItemBlocks();
     }
 
     public void postInit(FMLPostInitializationEvent e) {
